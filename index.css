@@ -1,6 +1,44 @@
-h1 {
-    color: red;
-  }
-h2 {
-    color: green;
+.resume-name {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 0.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
 }
+.first-word {
+  font-weight: bold;
+}
+h2, h3, .languages {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  font-style: normal;
+
+}
+
+.duration {
+  font-style: italic;
+  
+}
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: list-item;
+}
+
